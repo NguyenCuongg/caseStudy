@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Store</title>
+    <link rel="stylesheet" href="index1.CSS">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/anh/your-logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li> <a href="">Home</a></li>
+                        <li> <a href="">Products</a></li>
+                        <li> <a href="">About</a></li>
+                        <li> <a href="">Contact</a></li>
+                        <li> <a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="/anh/gioHang.png" width="30px" height="30px">
+                <img src="/anh/Menu_icon.png" class="menu-icon" onclick="menu()">
+            </div>
+
+            <div class="col-2">
+                <img src="/anh/Ảnh-bìa-web-kids-16.06.2020-01.jpg">
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/anh/thoiTrangNamf.png">
+                </div>
+                <div class="col-3">
+                    <img src="/anh/thoiTrangNamg.png">
+                </div>
+                <div class="col-3">
+                    <img src="/anh/thoiTrangNamh.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="small-container">
+        <h2>Các sản phẩm đặc sắc</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/anh/aoDui.jpg">
+                <h4>Áo Sơ Mi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>299.000VNĐ</p>
+            </div>
+
+            <div class="col-4">
+                <img src="/anh/Ao01.jpg">
+                <h4>Áo Sơ Mi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>299.000VNĐ</p>
+            </div>
+            <div class="col-4">
+                <img src="/anh/Ao03.jpg">
+                <h4>Áo Sơ Mi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>299.000VNĐ</p>
+            </div>
+            <div class="col-4">
+                <img src="/anh/Ao04.jpg     ">
+                <h4>Áo Sơ Mi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>299.000VNĐ</p>
+            </div>
+        </div>
+
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+
+    <!-- ---------footer---lien he--     -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-2">
+                    <img src="/anh/your-logo.png" style="background-color: rgb(150, 144, 144);">
+                    <p>Our Purpose is to sustainably make the pleasuare and benefits of sports accessible to the many.
+                    </p>
+                </div>
+
+
+                <div class="footer-col-4">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Zalo</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+
+                <hr>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- -----------js for toggle menu--------- -->
+    <script>
+        var MenuItems = document.getElementById("menuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menu() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
